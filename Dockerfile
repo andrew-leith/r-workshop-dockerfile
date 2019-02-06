@@ -45,5 +45,3 @@ RUN conda install -y jupyter \
     && wget https://raw.githubusercontent.com/waldronlab/BrownCOBRE2018/master/notebooks_day2/BrownCOBREDay2Session1.ipynb \
     && wget https://raw.githubusercontent.com/waldronlab/BrownCOBRE2018/master/notebooks_day2/BrownCOBREDay2Session2.ipynb \
     && wget https://raw.githubusercontent.com/waldronlab/BrownCOBRE2018/master/notebooks_day2/BrownCOBREDay2Session3.ipynb
-
-RUN screen -dm bash -c /home/ubuntu/miniconda2/bin/jupyter notebook --allow-root --ip 0.0.0.0
